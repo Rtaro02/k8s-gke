@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-resource "google_container_cluster" "priMary" {
+resource "google_container_cluster" "this" {
   name               = "momona-cluster"
   location           = "asia-northeast1-a"
   initial_node_count = 3
